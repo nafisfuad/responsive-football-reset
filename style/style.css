@@ -23,7 +23,7 @@ body {
     justify-content: center;
     align-items: flex-start;
 }
-.banner .text a {
+.banner .text a, .shop a {
     background-color: #E02C6D;
     text-decoration: none;
     padding: 10px;
@@ -51,6 +51,17 @@ body {
 .player img {
     width: 100%;
 }
+/* shop style  */
+.shop {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #2D25A0;
+    margin-bottom: 50px;
+    color: white;
+}
+.block-b {}
 
 /* footer style */
 footer {
@@ -87,4 +98,5 @@ footer img {
         justify-content: center;
         margin-bottom: 10px;
     }
+
 }
